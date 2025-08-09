@@ -2,7 +2,7 @@ let nome = "Luiza";
 let xp = 20000;
 let nivel;
 
-if (xp < 1000) {
+if (xp <= 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
     nivel = "Bronze";
